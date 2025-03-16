@@ -1,0 +1,33 @@
+2025-03-16 09:08:07,487 - root - INFO - Epoch 1/10, Train Loss: 1.4724, Val Loss: 9.3800, IoU: 0.0551, Learning Rate: 0.001000
+2025-03-16 09:08:12,177 - root - INFO - Epoch 2/10, Train Loss: 1.2765, Val Loss: 3.8366, IoU: 0.1002, Learning Rate: 0.001000
+2025-03-16 09:08:18,042 - root - INFO - Epoch 3/10, Train Loss: 1.2122, Val Loss: 1.5230, IoU: 0.1395, Learning Rate: 0.001000
+2025-03-16 09:11:40,345 - root - INFO - Epoch 1/5, Train Loss: 1.5271, Val Loss: 58.1920, IoU: 0.0688, Learning Rate: 0.001000
+2025-03-16 09:11:45,026 - root - INFO - Epoch 2/5, Train Loss: 1.3079, Val Loss: 2.8202, IoU: 0.0943, Learning Rate: 0.001000
+2025-03-16 09:11:50,758 - root - INFO - Epoch 3/5, Train Loss: 1.2244, Val Loss: 1.5240, IoU: 0.1288, Learning Rate: 0.001000
+2025-03-16 09:12:15,178 - root - INFO - Epoch 1/5, Train Loss: 1.7711, Val Loss: 1.9950, IoU: 0.0820, Learning Rate: 0.001000
+2025-03-16 09:12:20,489 - root - INFO - Epoch 2/5, Train Loss: 1.4965, Val Loss: 10.0849, IoU: 0.0509, Learning Rate: 0.001000
+2025-03-16 09:12:26,484 - root - INFO - Epoch 3/5, Train Loss: 1.3847, Val Loss: 3.8884, IoU: 0.0598, Learning Rate: 0.001000
+2025-03-16 09:12:33,291 - root - INFO - Epoch 4/5, Train Loss: 1.3387, Val Loss: 3.8268, IoU: 0.1273, Learning Rate: 0.001000
+2025-03-16 09:12:40,414 - root - INFO - Epoch 5/5, Train Loss: 1.3251, Val Loss: 2.8429, IoU: 0.1055, Learning Rate: 0.000100
+2025-03-16 09:17:48,406 - root - INFO - Epoch 1/5, Train Loss: 1.6544, Val Loss: 1.7497, IoU: 0.0901, Learning Rate: 0.001000
+2025-03-16 09:17:53,280 - root - INFO - Epoch 2/5, Train Loss: 1.3939, Val Loss: 8.3601, IoU: 0.0425, Learning Rate: 0.001000
+2025-03-16 09:17:59,060 - root - INFO - Epoch 3/5, Train Loss: 1.3076, Val Loss: 31.0964, IoU: 0.0171, Learning Rate: 0.001000
+2025-03-16 09:18:05,429 - root - INFO - Epoch 4/5, Train Loss: 1.2243, Val Loss: 9.2910, IoU: 0.0736, Learning Rate: 0.001000
+2025-03-16 09:18:12,162 - root - INFO - Epoch 5/5, Train Loss: 1.2173, Val Loss: 7.5018, IoU: 0.0963, Learning Rate: 0.000100
+2025-03-16 09:50:58,460 - wandb.sdk.lib.gitlib - DEBUG - git repository is invalid
+2025-03-16 09:50:58,875 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.wandb.ai:443
+2025-03-16 09:50:59,404 - urllib3.connectionpool - DEBUG - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2025-03-16 09:50:59,732 - urllib3.connectionpool - DEBUG - https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 392
+2025-03-16 09:55:45,072 - root - INFO - Epoch 1/5, Train Loss: 1.6401, Val Loss: 1.7939, IoU: 0.0747, Learning Rate: 0.001000
+2025-03-16 09:55:51,683 - root - INFO - Epoch 2/5, Train Loss: 1.4853, Val Loss: 8.9273, IoU: 0.0169, Learning Rate: 0.001000
+2025-03-16 09:55:59,330 - root - INFO - Epoch 3/5, Train Loss: 1.3674, Val Loss: 64.8046, IoU: 0.0410, Learning Rate: 0.001000
+2025-03-16 09:56:07,530 - root - INFO - Epoch 4/5, Train Loss: 1.2970, Val Loss: 13.2574, IoU: 0.0940, Learning Rate: 0.001000
+2025-03-16 09:56:16,014 - root - INFO - Epoch 5/5, Train Loss: 1.2604, Val Loss: 10.1396, IoU: 0.1087, Learning Rate: 0.000100
+2025-03-16 09:56:19,841 - asyncio - DEBUG - Using selector: EpollSelector
+2025-03-16 09:57:53,310 - root - INFO - Epoch 1/5, Train Loss: 1.7145, Val Loss: 1.8146, IoU: 0.0591, Learning Rate: 0.001000
+2025-03-16 09:58:00,007 - root - INFO - Epoch 2/5, Train Loss: 1.4052, Val Loss: 16.2084, IoU: 0.0573, Learning Rate: 0.001000
+2025-03-16 09:58:07,774 - root - INFO - Epoch 3/5, Train Loss: 1.2945, Val Loss: 76.1158, IoU: 0.0148, Learning Rate: 0.001000
+2025-03-16 09:58:15,753 - root - INFO - Epoch 4/5, Train Loss: 1.2778, Val Loss: 22.8513, IoU: 0.0256, Learning Rate: 0.001000
+2025-03-16 09:58:24,443 - root - INFO - Epoch 5/5, Train Loss: 1.2330, Val Loss: 9.1209, IoU: 0.0473, Learning Rate: 0.000100
+2025-03-16 09:58:28,206 - asyncio - DEBUG - Using selector: EpollSelector
+2025-03-16 10:01:01,807 - root - INFO - Epoch 1/5, Train Loss: 1.6280, Val Loss: 1.7306, IoU: 0.1147, Learning Rate: 0.001000
