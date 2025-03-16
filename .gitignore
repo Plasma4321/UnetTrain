@@ -2,4 +2,5 @@
 /Checkpoints_Logs/best_model2.pth
 /Checkpoints_Logs/best_model3.pth
 /Checkpoints_Logs/checkpoint.pth
+/Checkpoints_Logs/LoggingData.log
 /mainRWand.py
