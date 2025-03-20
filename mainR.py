@@ -246,7 +246,7 @@ if __name__ == '__main__':
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler(),  # Console output
-            logging.FileHandler('/home/temp/A100_Job/Checkpoints_Logs/LoggingData.log')  # Log to file 
+            logging.FileHandler('./Checkpoints_Logs/LoggingData.log')  # Log to file 
         ]
     )
 
@@ -257,16 +257,16 @@ if __name__ == '__main__':
 #/home/temp/BingRGB/
 #/home/temp/DataDummy
 
-    parser.add_argument("--datadir", type=str, default="/home/temp/DataDummy", help="Path to the dataset directory")
+    parser.add_argument("--datadir", type=str, default="./DummyData", help="Path to the dataset directory")
 
     parser.add_argument("--batch_size", type=int, default=72, help="Batch size for training (default: 32)")
 
-    parser.add_argument("--best_model_path", type=str, default="/home/temp/A100_Job/Checkpoints_Logs/best_model.pth",help="Path to save the best model checkpoint")#
-    parser.add_argument("--best_model2_path", type=str, default="/home/temp/A100_Job/Checkpoints_Logs/best_model2.pth",help="Path to save the 2nd best model checkpoint")#
-    parser.add_argument("--best_model3_path", type=str, default="/home/temp/A100_Job/Checkpoints_Logs/best_model3.pth",help="Path to save the 3rd best model checkpoint")#
-    parser.add_argument("--best_model_general_path", type=str, default="/home/temp/A100_Job/Checkpoints_Logs/best_model_general.pth",help="Path to save the general best model checkpoint")#
-    parser.add_argument("--checkpoint_path", type=str, default= '/home/temp/A100_Job/Checkpoints_Logs/checkpoint.pth', help='Saved model path')
-    parser.add_argument("--epochs", type=int, default=5, help="Number of training epochs (default: 10)")
+    parser.add_argument("--best_model_path", type=str, default="./Checkpoints_Logs/best_model.pth",help="Path to save the best model checkpoint")#
+    parser.add_argument("--best_model2_path", type=str, default="./Checkpoints_Logs/best_model2.pth",help="Path to save the 2nd best model checkpoint")#
+    parser.add_argument("--best_model3_path", type=str, default="./Checkpoints_Logs/best_model3.pth",help="Path to save the 3rd best model checkpoint")#
+    parser.add_argument("--best_model_general_path", type=str, default="./Checkpoints_Logs/best_model_general.pth",help="Path to save the general best model checkpoint")#
+    parser.add_argument("--checkpoint_path", type=str, default= './Checkpoints_Logs/checkpoint.pth', help='Saved model path')
+    parser.add_argument("--epochs", type=int, default=80, help="Number of training epochs (default: 10)")
     parser.add_argument("--lr", type=float, default=0.001, help="Learning rate for training (default: 0.001)")
     parser.add_argument("--num_classes", type = int, default=6, help="Number of classes")
     parser.add_argument("--eval_only", action='store_true', default=False, help = "Determining if only evaluation")
